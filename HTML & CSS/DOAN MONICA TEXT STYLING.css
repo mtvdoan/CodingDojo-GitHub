@@ -1,0 +1,44 @@
+
+html {
+    font-family : sans-serif;
+}
+
+body {
+    margin : 0;
+}
+
+.mycloud {
+    background-color : black;
+    margin : 5px;
+    padding : 1px;
+}
+
+h1 {
+    margin : 5px;
+    color : white;
+    font-family : monospace;
+}
+
+.Cloud {
+    color : aqua;
+}
+
+h2 {
+    background-color : purple;
+    font-style : italic;
+    color : white;
+    font-family : arial;
+    text-align : center;
+    margin : 5px;
+}
+
+h3 {
+    background-color : rgb(108, 173, 233);
+    color : black;
+    font-family : comic-sans;
+    text-align : right;
+    text-decoration : underline;
+    margin : 5px;
+    padding : 5px;
+    border : 0;
+}
