@@ -1,1 +1,1 @@
-# CodingDojo
+# CodingDojo GitHub
