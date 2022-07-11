@@ -1,0 +1,54 @@
+/* Spent too much time on this and was able to see the solutions.  Took some notes here for 
+future references!! This was a really hard problem and will need to go over it again.*/
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+    padding: 20px;  
+    /* add padding! */
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+    margin-bottom: 20px;
+    /* adding margin bottom 20px is the space under the green box 
+    with everything else.  it will self adjust 
+    notice that there's a div for top-nav.  top-nav's sizing properties
+    will not affect the blue, red, yellow, and purple boxes.*/
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+    margin-left: 20px;
+    /* this margin is the space between BLUE & RED */
+    padding: 10px;
+    /* padding is the space of red that SURROUNDS yellow and purple! */
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin: 10px;
+    /* this margin size of 10px separates the 3 yellow boxes border from its surrounding! */
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin: 10px;
+    /* this is the same where you  add a margin because you want a small space around the desired box. 
+    in this case purple. */
+}
+.row {
+    display: flex;
+    /* why row? there are two "row classes in the html"
+    You can see one of them holds side-nav & main
+    the other holds the three sub-contents
+    You will want this area to self adjust itself and not bother the top-nav*/
+}

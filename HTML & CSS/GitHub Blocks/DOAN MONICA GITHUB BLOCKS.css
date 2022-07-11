@@ -1,0 +1,101 @@
+
+h1{
+    font-size: 200px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: grey;
+    text-align: center;
+    
+}
+
+.blueblock {
+
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    justify-content: space-between;
+    background-color: aquamarine;
+   
+}
+
+.cherryontop {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+.girlcoder {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    
+}
+ .pushin{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    
+}
+
+.pinkblock {
+
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    background-color: rgb(229, 199, 247);  
+    display: flex;
+    justify-content: center;
+}
+.hula {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+.nyan {
+    margin: 50px;
+    padding: 50px;
+    height: 936px;
+    width: 936px;
+    background-color: transparent; 
+}
+ 
+.whiteblock {
+
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+    align items: center;
+    justify-content: space-between;
+    background-color:white;
+   
+}
+
+.kimono {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+}
+
+.mom {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    
+}
+ .sari{
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    
+}
+
+.greyblock{
+    padding: 100px;
+    margin: 100px;
+    background-color: #f5efef;
+    text-align: center;
+    font-size: 100px;
+    font-family: verdana;
+}
+
+
