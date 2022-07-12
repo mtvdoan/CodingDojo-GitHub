@@ -1,0 +1,108 @@
+.container {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+img {
+    height:auto;
+    width: auto;
+}
+h1{
+    font-size: 200px;
+    font-weight: bold;
+    font-family: Helvetica;
+    color: grey;
+    text-align: center;  
+}
+.blueblock {
+    padding: 20px;
+    margin: 20px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.cherryontop {
+    /* padding: 20px;
+    margin: 20px; */
+    background-color: white;
+}
+.girlcoder {
+    /* padding: 20px;
+    margin: 20px; */
+    background-color: white;  
+}
+ .pushin{
+    /* padding: 20px;
+    margin: 20px; */
+    background-color: white;
+}
+.pinkblock {
+/* padding: 20px;
+    margin: 20px; */
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(229, 199, 247);
+    display: flex;
+    justify-content: space-evenly;
+   
+    /* background-color: rgb(229, 199, 247);
+    display: flex;
+    justify-content: space-evenly;   */
+    
+    /* justify-content: center; */
+}
+.hula {
+    /* padding: 20px;
+    margin: 20px; */
+    background-color: white;
+}
+.nyan {
+    /* margin: 50px;
+    padding: 50px;
+    height: 936px;
+    width: 936px; */
+    background-color: transparent; 
+}
+ 
+.whiteblock {
+    /* /* padding: 20px;
+    margin: 20px; */
+    /* align-items: center; */
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly; 
+    background-color:white;
+   
+}
+
+.kimono {
+    /* padding: 20px;
+    margin: 20px; */
+    background-color: white;
+}
+
+.mom {
+    /* padding: 20px;
+    margin: 20px; */
+    background-color: white;
+    
+}
+ .sari{
+    /* padding: 20px;
+    margin: 20px; */
+    background-color: white;
+    
+}
+
+.greyblock{
+    padding: 100px;
+    margin: 100px;
+    background-color: #f5efef;
+    text-align: center;
+    font-size: 100px;
+    font-family: verdana;
+}
+
+
