@@ -1,0 +1,194 @@
+    * {
+    margin : 0;
+    padding : 0;
+    }
+    
+    .container-1 {
+    font-family : monospace;
+    margin : auto;
+    }
+    
+    .topnav {
+    margin : auto;
+    padding : 15px;
+    height : 50px;
+    font-size : 2.50rem;
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    color : white;
+    font-weight : bold;
+    background-color : rgb(181, 209, 247);
+    }
+    
+    .dojo_weather {
+    margin-left : 125px;
+    }
+    
+    .cities a {
+    color : white;
+    text-decoration : none;
+    margin : 25px;
+    }
+    
+    .cities {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    font-size : 1.5rem;
+    margin : 10px;
+    }
+    
+    .row1 {
+    display : flex;
+    height : 75px;
+    padding : 5px;
+    width : 800px;
+    margin : 0 auto;
+    flex-direction : row;
+    justify-content : space-between;
+    border-bottom : 3px solid black;
+    }
+    
+    .sj {
+    font-size : 2.4rem;
+    font-weight : bold;
+    margin-top : 25px;
+    }
+    
+    .show_temp {
+    display : inline-flex;
+    flex-direction : row;
+    justify-content : space-between;
+    margin : 10px;
+    }
+    
+    .show_temp1 {
+    font-size : 1.5rem;
+    margin : 10px;
+    }
+    
+    select {
+    width : 50px;
+    height : 25px;
+    margin : 10px;
+    font-family : monospace;
+    }
+    
+    .weather_container {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    margin : auto;
+    width : 950px;
+    height : 300px;
+    text-align : center;
+    }
+    
+    .weather_pic {
+    width : 75px;
+    height : 75px;
+    border-radius : 50%;
+    margin : 10px;
+    }
+    
+    .weather_sum {
+    font-size : 1.0rem;
+    }
+    
+    .weather_box_1 {
+    padding-top : 10px;
+    font-size : 1.5rem;
+    border : black solid 2px;
+    flex : 1;
+    margin : 30px;
+    width : 25%;
+    background-color : rgb(231, 231, 231);
+    }
+    
+    .show_temp {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-between;
+    margin : 15px;
+    }
+    
+    .red, .red::after {
+    color : red;
+    content : "°";
+    font-size : 1.5rem;
+    }
+    
+    .blue, .blue::after {
+    color : blue;
+    content : "°";
+    font-size : 1.5rem;
+    }
+    
+    .weather_box_2 {
+    padding-top : 10px;
+    font-size : 1.5rem;
+    border : black solid 2px;
+    flex : 1;
+    margin : 30px;
+    width : 25%;
+    background-color : rgb(231, 231, 231);
+    }
+    
+    .weather_box_3 {
+    padding-top : 10px;
+    font-size : 1.5rem;
+    border : black solid 2px;
+    flex : 1;
+    margin : 30px;
+    width : 25%;
+    background-color : rgb(231, 231, 231);
+    }
+    
+    .weather_box_4 {
+    padding-top : 10px;
+    font-size : 1.5rem;
+    border : black solid 2px;
+    flex : 1;
+    margin : 30px;
+    width : 25%;
+    background-color : rgb(231, 231, 231);
+    }
+    
+    .policy {
+    display : flex;
+    flex-direction : row;
+    justify-content : space-evenly;
+    border : black solid 2px;
+    width : 65%;
+    margin : 5px auto;
+    }
+    
+    .cookie {
+    height : 100px;
+    width : 100px;
+    margin : 0%;
+    }
+    
+    .cookie_title {
+    font-size : 1.5rem;
+    font-weight : bold;
+    }
+    
+    .cookie_description {
+    font-size : 1rem;
+    align-self : center;
+    margin : 5px;
+    }
+    
+    .button2 {
+    font-size : 1rem;
+    height : 45px;
+    width : 130px;
+    background-color : rgb(118, 153, 230);
+    box-shadow : 4px 4px black;
+    cursor : pointer;
+    align-self : center;
+    margin : 15px;
+    }
+    

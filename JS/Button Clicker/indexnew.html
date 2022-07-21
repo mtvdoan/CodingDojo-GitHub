@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="./stylenew.css">
+</head>
+<body>
+    <div class="page">
+        <div class="topnav">
+            <div class="navtitle">
+                <p class="titlenav">Dojonary</p>
+            </div>
+            <div class="search">
+                <input type="search" placeholder="Search" class="searchbar">
+            </div>
+            <div class="login">
+                <button type="button" class="loginbtn" onclick="logIn(this)">Login</button>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="leftcolumn">
+                <div class="topninja">
+                    <div class="ninjaleft">
+                        <p class="ninja1"> ninja</p>
+                        <p class="noun" style= "font-size: 18px; font-style: italic"> noun</p>
+                        <p class="plural" style= "font-size: 18px"> Plural: <i> style</i></p>
+                        <button  class="likes" style= "font-size: 18px" onclick="addlike(this); alert('Ninja was liked!')">13 likes</button>
+                    </div>
+                    <div class="topninjaright">
+                        <p class="practitioner">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="bottomninja">
+                    <div class="ninjaleft">
+                        <p class="ninja1"> ninja</p>
+                        <p class="noun" style= "font-size: 18px; font-style: italic"> noun</p>
+                        <p class="plural" style= "font-size: 18px"> Plural: <i> style</i></p>
+                        <button class="likes" style= "font-size: 18px">37 likes</button>                    </div>
+                    <div class="bottomninjaright">
+                        <p class="practitioner">A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                        <div class="topninjaright">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            <div class="rightcolumn">
+                <div class="dojonary">
+                    <p>Dojonary is defined by <b>YOU</b></p>
+                    <button type="button" class="defbutn" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div> 
+            </div>
+        </div>
+        <div>
+    </div>
+<script src="./scriptnew.js"></script>
+</body>
+</html>

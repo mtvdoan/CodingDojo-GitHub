@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dojo Weather</title>
+    <link rel="stylesheet" href="./style_weather.css">
+</head>
+<body>
+    <div class="container-1">
+        <div class="topnav">
+            <div class="nav_title">
+                <p class="dojo_weather">DojoWeather</p>
+            </div>
+            <div class="cities">
+                <p class="burbank">
+                    <a href="#" id="link1" class="burbank_link" onclick="myFunction()">Burbank</a>
+                </p>
+                <p class="chicago">
+                    <a href="#" id="link2" class="chicago_link" onclick="myFunction()">Chicago</a>
+                </p>
+                <p class="dallas">
+                    <a href="#" id="link3" class="dallas_link" onclick="myFunction()">Dallas</a>
+                </p>
+            </div>
+        </div>
+        <div class="row1">
+            <p class="sj">San Jose</p> 
+            <div class="show_temp">
+                <p class="show_temp1">show temperature in </p>
+                <select class ="select_unit" name="temperature" id="temp_unit" onchange="convert(this)">
+                    
+                        <option>C°</option>
+                        <option>F°</option>
+                    
+                </select>
+            </div>
+        </div>
+        <div class="weather_container">
+            <div class="weather_box_1">
+                <p class="today">Today</p>
+                <img src="./assets/some_rain.png" alt="some_rain" class="weather_pic">
+                <p class="weather_sum">some rain</p>
+                <div class="show_temp">
+                    <span class="red" id="temp_1">24</span>
+                    <span class="blue" id="temp_2">18</span>
+                </div>
+            </div>
+            <div class="weather_box_2">
+                <p class="tomorrow">Tomorrow</p>
+                <img src="./assets/some_sun.png" class="weather_pic" alt="some_sun">
+                <p class="weather_sum">some sun</p>
+                <div class="show_temp">
+                    <span class="red" id="temp_3">27</span>
+                    <span class="blue" id="temp_4">19</span>
+                </div>
+            </div>
+            <div class="weather_box_3">
+                <p class="Friday">Friday</p>
+                <img src="./assets/some_clouds.png" class="weather_pic" alt="some_clouds">
+                <p class="weather_sum">some sun</p>
+                <div class="show_temp">
+                    <span class="red" id="temp_5">21</span>
+                    <span class="blue" id="temp_6">16</span>
+        
+                </div>
+            </div>
+            <div class="weather_box_4">
+                <p class="Saturday">Saturday</p>
+                <img src="./assets/some_sun.png" class="weather_pic" alt="some_sun">
+                <p class="weather_sum">some sun</p>
+                <div class="show_temp">
+                    <span class="red" id="temp_7">26</span>
+                    <span class="blue" id="temp_8">21</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="close_policy" class="policy">
+        <img src="./assets/cookie.png" alt="cookie" class="cookie"/>
+            <p class="cookie_description">
+                <span class="cookie_title">Stop! Cookie time</span><br>
+                We use cookies (sadly not the edible ones) to personalize
+                content and ads, to provide social media features and to 
+                analyze our traffic. 
+                <a href="#">Read more...</a>
+            </p>
+            <span>
+                <button class="button2" type="button" onclick="off()">I accept</button>
+            </span>
+    </div>
+    <script src="./script_weather.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

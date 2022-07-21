@@ -1,0 +1,201 @@
+* {
+    margin : 0;
+    padding : 0;
+    }
+    .page {
+    height : 1500px;
+    }
+    body {
+    font-family : monospace;
+    background-color : white;
+    align-content : center;
+    }
+    .nav {
+    height : 80px;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    background-color : black;
+    color : white;
+    }
+    .nav-title {
+    font-size : 2.5rem;
+    margin-left : 25px;
+    }
+    .nav-links {
+    flex : 3;
+    list-style-type : none;
+    display : flex;
+    align-items : center;
+    justify-content : space-around;
+    font-size : 32px;
+    }
+    a {
+    color : white;
+    text-decoration : none;
+    }
+    .btn {
+    height : 30px;
+    width : 100px;
+    background-color : teal;
+    color : white;
+    border : none;
+    font-size : 18px;
+    box-shadow : 5px 5px gray;
+    cursor : pointer;
+    }
+    .col-1 {
+    margin-top : 25px;
+    margin-right : 50px;
+    justify-content : space-between;
+    width : 55%;
+    border : gray solid 1px;
+    display : inline-block;
+    }
+    .row {
+    background-color : teal;
+    height : 80px;
+    }
+    .main1 {
+    background-color : white;
+    height : 300px;
+    }
+    .usercircle {
+    height : 100px;
+    width : 100px;
+    margin-left : 50px;
+    margin-top : -50px;
+    border-radius : 50%;
+    border : gray solid 3px;
+    }
+    h1 {
+    font-size : 42px;
+    margin-left : 25px;
+    }
+    .location {
+    margin-left : 20px;
+    font-size : 24px;
+    }
+    .pin {
+    height : 20px;
+    width : 20px;
+    margin-left : 25px;
+    }
+    .description {
+    margin-left : 25px;
+    font-size : 24px;
+    }
+    .gear {
+    height : 20px;
+    width : 20px;
+    margin-left : 25px;
+    }
+    .editprofile {
+    color : blue;
+    margin-bottom : 30px;
+    font-size : 1.5rem;
+    }
+    .container-2 {
+    display : flex;
+    }
+    .row2 {
+    height : 60px;
+    margin-top : 30px;
+    background-color : black;
+    color : white;
+    }
+    .education {
+    font-size : 24px;
+    font-weight : bold;
+    padding : 10px;
+    }
+    .main2 {
+    background-color : white;
+    height : 300px;
+    flex : 1;
+    }
+    h2, .date, .triple {
+    margin-left : 25px;
+    font-size : 1.5rem;
+    }
+    .date {
+    color : gray;
+    }
+    .col-2 {
+    display : inline-flex;
+    flex-direction : column;
+    width : 35%;
+    height : 1000px;
+    margin-top : 25px;
+    vertical-align : top;
+    min-width : 0;
+    }
+    .row3 {
+    text-align : center;
+    height : 60px;
+    background-color : black;
+    color : white;
+    }
+    .main4 {
+    border : gray solid 2px;
+    }
+    .request {
+    font-size : 24px;
+    font-weight : bold;
+    padding : 10px;
+    }
+    .toddpic, .philpic {
+    border-radius : 50%;
+    height : 80px;
+    width : 80px;
+    margin : 25px;
+    }
+    .todd, .phil {
+    font-size : 24px;
+    }
+    .yes {
+    height : 50px;
+    width : 50px;
+    margin-left : 100px;
+    }
+    .no {
+    height : 50px;
+    width : 50px;
+    margin-left : 10px;
+    }
+    .row4 {
+    margin-top : 25px;
+    text-align : center;
+    height : 60px;
+    background-color : black;
+    color : white;
+    }
+    .main5 {
+    border : gray solid 2px;
+    }
+    p.connects {
+    font-size : 24px;
+    font-weight : bold;
+    padding : 10px;
+    }
+    .toddpic, .philpic, .adrienpic, .annpic, .alaynepic, .arrypic {
+    border-radius : 50%;
+    height : 80px;
+    width : 80px;
+    margin : 25px;
+    }
+    .todd, .phil, .adrien, .ann, .alayne {
+    font-size : 24px;
+    }
+    .view {
+    height : 60px;
+    background-color : white;
+    border : gray solid 2px;
+    font-size : 1.5rem;
+    }
+    .viewlink {
+    font-size : 1.5rem;
+    color : blue;
+    margin : 25px;
+    margin-top : 25px;
+    }

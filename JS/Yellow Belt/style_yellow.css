@@ -1,0 +1,266 @@
+* {
+margin : 0;
+padding : 0;
+}
+
+.container1 {
+margin : auto;
+font-family : monospace;
+}
+/* This is the header with navigation bar and etc. */
+.nav_container {
+display : flex;
+background-color : rgb(3, 133, 172);
+height : 100px;
+}
+
+.nav_row1 {
+margin : auto;
+margin-top : 15px;
+display : flex;
+flex-direction : row;
+justify-content : space-between;
+margin-left : 10px;
+padding : 5px;
+}
+
+.nav_title {
+font-size : 2.5rem;
+color : white;
+margin-top : 0;
+margin : 5px;
+}
+
+.heart_pic {
+height : 50px;
+}
+
+.nav_row1_2 {
+margin : auto;
+display : flex;
+flex-direction : row;
+justify-content : space-between;
+margin-right : 15px;
+margin-top : 15px;
+}
+
+.find {
+font-size : 1.5rem;
+margin : 5px;
+padding : 10px;
+font-weight : bold;
+}
+
+.about {
+font-size : 1.5rem;
+margin : 5px;
+padding : 10px;
+font-weight : bold;
+}
+
+.donate_button {
+border-radius : 60%;
+width : 100px;
+font-size : 1.5rem;
+color : purple;
+font-weight : bold;
+background-color : white;
+cursor: pointer;
+}
+
+.nav_row2 {
+margin-right : 100%;
+display : flex;
+flex-direction : row;
+width : 100%;
+height : 25px;
+background-color : rgb(3, 133, 172);
+}
+
+.nav_row3 {
+padding : 10px;
+display : flex;
+flex-direction : row;
+margin-top : -15px;
+height : 30px;
+background-color : rgb(3, 133, 172);
+}
+
+.looking, .near {
+margin : 25px;
+margin-top : 0;
+color : white;
+}
+
+.select_pet {
+margin-right : 60px;
+}
+
+.find_best {
+margin-top : 0;
+width : 225px;
+margin-left : auto;
+background-color : rgb(163, 76, 163);
+box-shadow : 4px 4px black;
+color : white;
+font-size : 1.1rem;
+}
+
+
+/* START: This section starting below is Pepper's profile and pet button. */
+.cat_1 {
+margin : auto;
+padding : 5px;
+margin-top : 10px;
+display : flex;
+align-items : center;
+flex-direction : row;
+justify-content : space-evenly;
+width : 1000px;
+border-radius : 20px;
+height : 120px;
+background-color : rgb(202, 202, 202, 0.11);
+}
+
+/* I wanted to have the value of pets to be by itself so I can code the number of pets easier. */
+.pepper::after {
+content : " pettings(s)";
+}
+
+.pepper_pic {
+height : 100px;
+width : 100px;
+}
+
+.column2 {
+font-size : 1rem;
+width : 600px;
+}
+
+.pepper_name {
+font-size : 2rem;
+height : 20px;
+margin-bottom : 20px;
+}
+
+.column3 {
+font-size : 1.5rem;
+}
+
+.pepper_button {
+padding : 5px;
+margin : 15px;
+width : 200px;
+color : white;
+background-color : rgb(36, 219, 158);
+font-size : 1.2rem;
+font-weight : bold;
+box-shadow : 4px 4px black;
+cursor : pointer;
+}
+/* STOP for Pepper's section */
+
+/* START for Bruce's section */
+.dog_1 {
+margin : auto;
+padding : 5px;
+margin-top : 10px;
+display : flex;
+align-items : center;
+flex-direction : row;
+justify-content : space-evenly;
+width : 1000px;
+border-radius : 20px;
+height : 120px;
+background-color : rgb(202, 202, 202, 0.11);
+}
+
+/* I wanted to have the value of pets to be by itself so I can code the number of pets easier. */
+.bruce::after {
+content : " pettings(s)";
+}
+
+.bruce_pic {
+height : 100px;
+width : 100px;
+}
+
+.column2 {
+font-size : 1rem;
+width : 600px;
+}
+
+.bruce_name {
+font-size : 2rem;
+height : 20px;
+margin-bottom : 20px;
+}
+
+.column3 {
+font-size : 1.5rem;
+}
+
+.bruce_button {
+padding : 5px;
+margin : 15px;
+width : 200px;
+color : white;
+background-color : rgb(36, 219, 158);
+font-size : 1.2rem;
+font-weight : bold;
+box-shadow : 4px 4px black;
+cursor : pointer;
+}
+
+/* START OF OSCAR'S SECTION. */
+
+.dog_2 {
+margin : auto;
+padding : 5px;
+margin-top : 10px;
+display : flex;
+align-items : center;
+flex-direction : row;
+justify-content : space-evenly;
+width : 1000px;
+border-radius : 20px;
+height : 120px;
+background-color : rgb(202, 202, 202, 0.11);
+}
+
+.oscar::after {
+content : " pettings(s)";
+}
+
+.oscar_pic {
+height : 100px;
+width : 100px;
+}
+
+.column2 {
+font-size : 1rem;
+width : 600px;
+}
+
+.oscar_name {
+font-size : 2rem;
+height : 20px;
+margin-bottom : 20px;
+}
+
+.column3 {
+font-size : 1.5rem;
+}
+
+.oscar_button {
+padding : 5px;
+margin : 15px;
+width : 200px;
+color : white;
+background-color : rgb(36, 219, 158);
+font-size : 1.2rem;
+font-weight : bold;
+box-shadow : 4px 4px black;
+cursor : pointer;
+}
+/* STOP OSCAR'S SECTION */

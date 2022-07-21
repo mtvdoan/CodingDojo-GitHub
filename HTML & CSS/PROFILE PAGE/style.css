@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body {
+    font-family: monospace;
+    background-color: #17a2b8;
+}
+
+.nav {
+    /* Note to self: need to use "nav".  There are specific classes for div */
+    background-color: #333333;
+    color: #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;  
+    /* NOTE TO SELF: THIS LIST-STYLE-TYPE GETS RID OF BULLET POINT AS PER TA */
+    justify-content: space-around;
+}
+
+.nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-title {
+    margin-left: 20px;
+}
+
+.btn {
+/* Note to self...tried to use a custom name like "signoutbutton" does not work . 
+THERE ARE SPECIFIC button classes on W3 site*/
+    height: 35px;
+    width: 100px;
+    background-color: #17a2b8;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    font-size: 16px;
+    box-shadow: 5px 5px #000000;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+}
+
+.col, .col-2 {
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.flex-container {
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-card, .card {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #999;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #17a2b8;
+    height: 125px;
+    margin-bottom: 70px;
+}

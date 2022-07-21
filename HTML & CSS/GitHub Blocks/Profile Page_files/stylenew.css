@@ -1,0 +1,161 @@
+.page{}
+
+body{
+    font-family: monospace;
+    background-color: white;
+}
+
+.nav{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.nav-title{
+    font-size: 1.5rem;
+    margin-left: 25px;
+    flex: 1;
+}
+.nav-links{
+    flex: 3;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.btn{
+    height: 30px;
+    width: 100px;
+    background-color: teal;
+    color: white;
+    border: none;
+    font-size: 18px;
+    box-shadow: 5px 5px gray;
+    cursor: pointer;
+}
+
+.col-1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.row {
+    background-color: teal;
+    height: 80px;
+    /* flex: 2; */
+}
+
+.container-1 {
+    font-family: monospace;
+    border: 2px solid gray;
+    
+    /* margin: 0 auto; */
+/*    
+    align-content: center; */
+    height: 350px;
+    flex: 2;
+    margin-bottom: 25px;
+}
+
+
+.main {
+    background-color: white;
+    height: 300px;
+    /* border: 2px solid gray; */
+    flex: 2;
+   
+    /* margin: 0 auto; */
+}
+
+.usercircle{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 3px solid gray;
+}
+
+h1{
+    font-size: 42px;
+    margin-left: 25px;
+    flex: 2;
+}
+
+.location{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.pin{
+    height: 20px;
+    width: 20px;
+    margin-left: 25px;
+}
+
+.description{
+    margin-left: 25px;
+}
+
+.gear{
+    height: 20px;
+    width: 20px;
+    margin-left: 25px;
+}
+
+.editprofile{
+    color: blue;
+    margin-bottom: 30px;
+}
+
+.container-2{
+    display: flex;
+    border: 2px solid gray;
+}
+
+.row2, .row3{
+    height: 60px;
+    
+    background-color: black;
+    /* font-size: 24px; */
+    
+    color: white;
+    align-items: left;
+  
+    
+   
+    
+}
+
+p.education{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px;
+    color:
+}
+
+.main2{
+    background-color: white;
+    height: 300px;
+    flex: 1;
+    align-item: left;
+    margin-left: 25px;
+}
+
+.date {
+    color: gray;
+}
+
+.col-2{
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+
+

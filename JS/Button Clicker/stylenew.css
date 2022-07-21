@@ -1,0 +1,126 @@
+* {
+margin : 0;
+padding : 0;
+}
+
+.page {
+font-family : monospace;
+}
+
+.topnav {
+height : 90px;
+background-color : gray;
+margin : auto;
+width : auto;
+display : flex;
+justify-content : space-between;
+}
+
+.navtitle {
+font-size : 3rem;
+margin : 15px;
+}
+
+.search {
+width : 250px;
+margin : 25px;
+}
+
+.searchbar {
+width : 300px;
+height : 30px;
+}
+
+.login {
+margin : 15px;
+}
+
+.loginbtn {
+margin : 15px;
+padding : 5px;
+background : rgb(74, 74, 236);
+color : white;
+box-shadow : 4px 4px black;
+cursor : pointer;
+}
+
+.bottom {
+display : flex;
+}
+
+.leftcolumn {
+background-color : aliceblue;
+flex : 1;
+flex-direction : column;
+height : 200px;
+margin : 10px;
+display : flex;
+}
+
+.topninja {
+flex : 1;
+background-color : white;
+border : black solid 2px;
+margin-bottom : 10px;
+display : flex;
+flex-direction : row;
+justify-content : space-evenly;
+}
+
+.topninjaright {
+margin : 50px;
+font-size : 18px;
+}
+
+.ninjaleft {
+margin : 10px;
+font-family : monospace;
+font-size : 32px;
+color : black;
+}
+
+.ninja1 {
+font-size : 36px;
+}
+
+.bottomninja {
+flex : 1;
+background-color : white;
+border : black solid 2px;
+display : flex;
+flex-direction : row;
+}
+
+.bottomninjaright {
+margin : 50px;
+font-size : 18px;
+}
+
+.likes, .likes2 {
+background-color : rgb(255, 187, 0);
+color : black;
+width : 75px;
+height : 35px;
+margin : 5px;
+margin-top : 20px;
+box-shadow : 4px 4px black;
+cursor : pointer;
+}
+
+.rightcolumn {
+font-size : 30px;
+text-align : center;
+height : 150px;
+border : black solid 2px;
+margin : 10px;
+flex : 0.7;
+}
+
+.defbutn {
+background-color : rgb(126, 167, 126);
+width : 100px;
+height : 30px;
+box-shadow : 4px 4px black;
+cursor : pointer;
+margin : 30px;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pet</title>
+<!-- Link style.css! -->
+    <link rel="stylesheet" href="./style_yellow.css">
+</head>
+<body>
+    <div class="container1">
+        <!-- top header navbar split into different rows in order to use flex easier-->
+        <div class="nav_container">
+            <div class="nav_row1">
+                <img  src="./assets/heart-light.png" alt="heart_icon" class="heart_pic">
+                <p class="nav_title">Pet Shelter</p>
+            </div>
+            <div class="nav_row1_2">
+                <p class="find"> Find a Pet </p>
+                <p class="about">About</p>
+                <button type="button" class="donate_button" id="donate_click" onclick=remove(this)>Donate</button>
+            </div>
+        </div>
+            <div class="nav_row2">
+                <p class="looking"> I'm looking for a...</p>
+                <p class="near"> in or near...</p>
+            </div>
+        <div class="nav_row3">
+<!-- Pick a Pet drop-down menu.  Added onchange function to display an alert -->
+            <img src="./assets/paw-light.png" alt="paw">
+            <select id="pick_pet" name="pick_pet" class="select_pet" onchange="choice1(this)">
+                <option value="">Any Animal</option>
+                <option value="Dog">Dog</option>
+                <option value="1">Cat</option>
+                <option value="2">Hamster</option>
+                <option value="3">Guinea Pig</option>
+            </select>
+<!-- This is where I placed the best friend button and the location text input -->
+            <img src="./assets/pin-light.png" alt="pin">
+            <input type="text" name="pin" id="pin_location" value="City or Zip Code">
+            <button type="button" id="best_friend" name="find_friend" class="find_best">Find your new best friend</button>
+        </div>
+<!-- This is the first animal on the page, Pepper. -->
+        <div class="cat_1">
+            <div class="column1">
+                <img src="./assets/pepper.jpg" class="pepper_pic" alt="pepper_face">
+            </div>
+            <div class="column2">
+                <p class="pepper_name">Pepper</p>
+                <!-- Had to shorten this description because I couldn't see the entire thing in VS Code. -->
+                <p class="pepper_description">Pepper is a slightly shy grey tabby, but she really loves showing her human 
+                    affection.</p>
+            </div>
+            <div class="column3">
+                <p class="pepper" id="pepper_pets">3
+                </p>
+                <!-- This is the "Pet" button for the animal. Added an onclick to increase the number of pets.  I made each
+                counter function unique.  For example, add1(), add2()l, and add3().-->
+                <button id="pepper_clicks" type="button" class="pepper_button" onclick="add1()">Pet Pepper</button>
+            </div>
+        </div>
+<!-- Below is Bruce's section -->
+        <div class="dog_1">
+            <div class="column1">
+                <img src="./assets/bruce.jpg" class="bruce_pic" alt="bruce_face">
+            </div>
+            <div class="column2">
+                <p class="bruce_name">Bruce</p>
+                <p class="bruce_description">Bruce is a loyal companion.
+                    He loves long walks and cold weather.
+                </p>
+            </div>
+            <div class="column3">
+                <p class="bruce" id="bruce_pets">5</p> 
+<!--This is another "pet" button for Bruce.  The function is add2()  -->
+                <button type="button" class="bruce_button" id="bruce_clicks" onclick="add2()">Pet Bruce</button>
+            </div>
+        </div>
+<!-- Below is Oscar's section.  This is the last dog. -->
+        <div class="dog_2">
+            <div class="column1">
+                <img src="./assets/oscar.jpg" class="oscar_pic" alt="oscar_face">
+            </div>
+            <div class="column2">
+                <p class="oscar_name">Oscar</p>
+                <p class="oscar_description">Oscar is bright, energetic and friendly. He is looking for a good home.</p>
+            </div>
+            <div class="column3">
+                <p class="oscar" id="oscar_pets">8</p>
+<!-- Below is oscar's pet button with function add3 -->
+                <button type="button" class="oscar_button" id="oscar_clicks" onclick="add3()">Pet Oscar</button>
+            </div>
+        </div>
+    </div>
+<!-- Source script.js! -->
+<script src="./script_yellow.js"></script>   
+</body>
+</html>

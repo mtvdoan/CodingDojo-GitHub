@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body {
+   font-family: monospace; 
+}
+
+.container{
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.header{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.headerlink {
+    color: white;
+    margin: 10px;
+    
+}
+
+.profile{
+    text-align: center;
+    margin-right: 50px;
+    font-size: 25px;
+    color: white;
+    
+    padding: 5px;
+}
+
+a {
+    font-size: 16px;
+    vertical-align: bottom;
+    /* Margin: 10px; */
+    text-decoration: none;
+}
+#signoutbutton{
+    background-color: rgb(36, 189, 138);
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 90px;
+    margin-right: 2px;
+    width: 60px;
+    
+    margin: 10px;
+}
+.container2{
+    display: flex;
+    direction row;
+    justify-content: space-evenly;
+    margin: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.leftcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+    align-items: left;
+    padding: 0px;
+    flex: 1;
+    -webkit-flex: 1;
+    border: 1px solid black;
+}
+
+
+.leftprofile{
+    display: inline-f
+    margin: 0;
+    height: 500px;
+    padding: 0;
+    
+    
+}
+
+.janephoto{
+    border: 4px solid gray;
+    border-radius: 100%;
+    margin-top: 50px;
+    margin-left: 40px;
+    height: 90px;
+    width: 90px
+}
+
+.greentop {
+    background-color: rgb(51, 158, 158);
+    height: 100px;
+    width: 110%;
+}
+.whitebottom{
+    margin-top: 0;
+    padding: 30px;
+    height: 300px;
+    border: 1px solid black;
+    width: 110%;
+}
+.gear {
+    display: flex;
+    flex-direction: row;
+    justify-self: space-evenly;
+    margin: 5px;
+    align-items: bottom;
+   
+
+}
+
+.gearpic{
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+.rightcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: right;
+    height: 500px;
+    padding: 10px;
+    -webkit-flex: 1;
+    flex: 1;
+    border: 1px solid black;
+
+}

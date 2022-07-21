@@ -1,0 +1,31 @@
+    * {
+    margin : 0;
+    padding : 0;
+    }
+    
+    .block {
+    font-family : monospace;
+    margin : 25px;
+    height : 125px;
+    margin : 25px;
+    border : black solid 2px;
+    }
+    
+    .row1 {
+    display : flex;
+    justify-content : space-between;
+    margin : 20px;
+    }
+    
+    .like {
+    background-color : yellow;
+    box-shadow : 4px 4px black;
+    width : 50px;
+    cursor : pointer;
+    }
+    
+    .entry {
+    text-align : left;
+    margin : 20px;
+    }
+    

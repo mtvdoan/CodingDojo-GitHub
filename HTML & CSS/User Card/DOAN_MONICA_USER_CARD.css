@@ -1,0 +1,64 @@
+* {
+    margin : 0;
+    padding : 0;
+}
+.container {
+    font-family: monospace;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-content: center;
+    height: 280px;
+    width: 700px;
+    border: 2px solid gray;
+}
+
+.row {
+    background-color: teal;
+    
+    height: 150px;
+    width: 700px;
+}
+
+.main {
+    background-color: white;
+    height: 500px;
+    width: 700px;
+
+    margin: 0 auto;
+}
+
+.usercircle{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: -50px;
+    border-radius: 50%;
+    border: 3px solid gray;
+}
+
+h1{
+    font-size: 42px;
+    margin-left: 25px;
+}
+
+.location{
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.pin{
+    height: 20px;
+    width: 20px;
+    margin-left: 25px;
+}
+
+.description{
+    margin-left: 25px;
+}
+
+.gear{
+    height: 20px;
+    width: 20px;
+    margin-left: 25px;
+}
