@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ninja to Cat Puzzle Project</title>
+    <link rel="preload" href="https://placeimg.com/180/255/animals" as="image">
+    <link rel="stylesheet" href="ninja_to_cat-WH.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $('.image').on('click', function(){
+                $(this).toggleClass('cat').toggleClass('ninja');
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Ninja to Cat Puzzle</h1>
+            <p>Click on the images below to change the total image to a cat or ninja!</p>
+        </div>
+        <div id="puzzleWrapper">
+            <div class="image cat first"></div>
+            <div class="image cat second"></div>
+            <div class="image cat third"></div>
+            <div class="image cat fourth"></div>
+            <div class="image cat fifth"></div>
+        </div>
+    </div>
+</body>
+</html>

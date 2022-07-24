@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Playground</title>
+</head>
+<body>
+    
+<p id="hide">This will be hidden</p>
+<button id="doThing">Do a thing</button>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#doThing').click(function() {
+            $('#hide').hide(1000, itsGone());
+        })
+    })
+
+    function itsGone() {
+        alert("It's gone");
+    }
+</script>
+</body>
+</html>

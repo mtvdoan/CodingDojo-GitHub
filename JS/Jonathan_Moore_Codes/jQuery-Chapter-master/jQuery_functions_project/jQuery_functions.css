@@ -1,0 +1,7 @@
+#showImg, #toggleImg, #slideDownImg, #slideToggleImg, #fadeInImg, #fadeToggleImg {
+    display: none;
+}
+
+.appendLi:hover {
+    cursor: pointer;
+}

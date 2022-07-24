@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgb(53, 172, 172);
+    box-sizing: border-box;
+}
+
+.col-1, .col-2, .col-3 {
+    flex: 1;
+    margin: 0 15px;
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+@media(max-width: 600px){
+    .container{
+        flex-direction: column;
+    }
+
+    .col-1, .col-2, .col-3{
+        margin: 15px 0;
+
+    }
+}
+
+@media(max-height: 400px) and (max-width: 400px) {
+    .col-3{
+        order: 3;
+    
+    }
+    .col-1{
+        order: 1;
+    }
+    .col-2{
+        order: 2;
+
+    }
+}

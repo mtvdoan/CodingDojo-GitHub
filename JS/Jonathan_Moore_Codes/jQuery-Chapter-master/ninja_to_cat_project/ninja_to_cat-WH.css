@@ -1,0 +1,42 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#header {
+    text-align: center;
+}
+
+#puzzleWrapper {
+    width: 180px;
+    margin: 50px auto;
+}
+
+.image {
+    width:100%;
+    height:50px;
+    margin-bottom: 5px;
+}
+
+.first {
+    background-position-y: top;
+}
+.second {
+    background-position-y: 200px;
+}
+.third {
+    background-position-y: 150px;
+}
+.fourth {
+    background-position-y: 100px;
+}
+.fifth {
+    background-position-y: bottom;
+}
+
+.cat {
+    background-image: url(https://placekitten.com/180/255);
+}
+.ninja {
+    background-image: url(https://placeimg.com/180/255/animals);
+}

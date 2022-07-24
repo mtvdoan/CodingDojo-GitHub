@@ -1,0 +1,9 @@
+Steps to complete the "Remote Repo" assignment from Coding Dojo:
+
+1) Create a new repo in GitHub and locally called "basic_repo"
+2) Initialize git in the local repo and setup the GitHub repo as origin
+3) In the local repo, create a txt file call "steps.txt" and add some content to it
+4) Make the initial commit
+5) Push commit to the GitHub repo
+6) Add some new changes to "steps.txt"
+7) Commit and push changes to GitHub

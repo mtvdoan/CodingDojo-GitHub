@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Playground</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <p class="thing">This will be hidden or shown</p>
+    <p class="thing">This will be hidden or shown</p>
+    <p class="thing">This will be hidden or shown</p>
+
+    <button id="doThing">Do a thing</button>
+    <button id="doOtherThing">Do another thing</button>
+
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.thing').click(function() {
+        $(this).hide();
+    })
+})
+</script>
+</body>
+</html>
